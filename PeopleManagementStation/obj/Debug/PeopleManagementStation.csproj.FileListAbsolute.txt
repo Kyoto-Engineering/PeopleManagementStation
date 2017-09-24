@@ -1,0 +1,9 @@
+E:\Tanmoy\Visual Studio\PeopleManagementStation\PeopleManagementStation\PeopleManagementStation\bin\Debug\PeopleManagementStation.exe.config
+E:\Tanmoy\Visual Studio\PeopleManagementStation\PeopleManagementStation\PeopleManagementStation\bin\Debug\PeopleManagementStation.exe
+E:\Tanmoy\Visual Studio\PeopleManagementStation\PeopleManagementStation\PeopleManagementStation\bin\Debug\PeopleManagementStation.pdb
+E:\Tanmoy\Visual Studio\PeopleManagementStation\PeopleManagementStation\PeopleManagementStation\obj\Debug\PeopleManagementStation.csprojResolveAssemblyReference.cache
+E:\Tanmoy\Visual Studio\PeopleManagementStation\PeopleManagementStation\PeopleManagementStation\obj\Debug\PeopleManagementStation.Form1.resources
+E:\Tanmoy\Visual Studio\PeopleManagementStation\PeopleManagementStation\PeopleManagementStation\obj\Debug\PeopleManagementStation.Properties.Resources.resources
+E:\Tanmoy\Visual Studio\PeopleManagementStation\PeopleManagementStation\PeopleManagementStation\obj\Debug\PeopleManagementStation.csproj.GenerateResource.Cache
+E:\Tanmoy\Visual Studio\PeopleManagementStation\PeopleManagementStation\PeopleManagementStation\obj\Debug\PeopleManagementStation.exe
+E:\Tanmoy\Visual Studio\PeopleManagementStation\PeopleManagementStation\PeopleManagementStation\obj\Debug\PeopleManagementStation.pdb
