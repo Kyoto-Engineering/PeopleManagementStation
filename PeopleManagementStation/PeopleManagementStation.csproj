@@ -49,22 +49,62 @@
   <ItemGroup>
     <Compile Include="DbGateway\ConnectionGateway.cs" />
     <Compile Include="DbGateway\ConnectionString.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Report\EmployeeProfile.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmployeeProfile.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GradeAssignmentUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="GradeAssignmentUI.Designer.cs">
+      <DependentUpon>GradeAssignmentUI.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\GradeManagementUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\GradeManagementUI.Designer.cs">
+      <DependentUpon>GradeManagementUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\GradeTypeCreationUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\GradeTypeCreationUI.Designer.cs">
+      <DependentUpon>GradeTypeCreationUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="Report\GradeReport.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>GradeReport.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="UI\GradeCreationUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\GradeCreationUI.Designer.cs">
+      <DependentUpon>GradeCreationUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\LoginUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\LoginUI.Designer.cs">
+      <DependentUpon>LoginUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\LandingUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\LandingUI.Designer.cs">
+      <DependentUpon>LandingUI.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Report\EmployeeProfile.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EmployeeProfile.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GradeAssignmentUI.resx">
+      <DependentUpon>GradeAssignmentUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -75,9 +115,24 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UI\GradeManagementUI.resx">
+      <DependentUpon>GradeManagementUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\GradeTypeCreationUI.resx">
+      <DependentUpon>GradeTypeCreationUI.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Report\GradeReport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>GradeReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\GradeCreationUI.resx">
+      <DependentUpon>GradeCreationUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LoginUI.resx">
+      <DependentUpon>LoginUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LandingUI.resx">
+      <DependentUpon>LandingUI.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
